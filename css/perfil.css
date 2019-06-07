@@ -1,0 +1,19 @@
+#imagen-usuario 
+
+        {
+            
+            height: 110px; width: 150px;
+            display: inline;
+            overflow: hidden;
+
+
+        }
+
+        #imagen-usuario img
+        {
+            
+            height: 80px;
+            width: 120px;
+            overflow: hidden;
+        }
+

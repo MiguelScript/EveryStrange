@@ -1,0 +1,33 @@
+
+
+.tabla
+{
+
+	margin:  0px auto;
+	color: white;
+	text-align: center;
+}
+
+.celda-oscura
+{
+	background-color: rgb(72,17,19);
+}
+
+.celda-clara 
+{
+	background-color: rgb(117,27,31);
+	
+}
+
+.celda-clara td
+{
+	padding: 2px
+}
+
+
+.linea-extra 
+{
+	color: black;
+	margin:  10 auto;
+	
+}

@@ -1,0 +1,141 @@
+
+
+
+
+
+        .contenedor 
+        {
+
+            /*overflow: hidden;*/
+          /*  height: 300px;*/
+            background-color: white;
+            
+        }
+
+        section
+        {
+            margin-left: 20%;
+            margin-right: 20%;
+            height: 1000px;
+            width: 60%;
+            position: absolute;
+        }
+        #imagen-usuario 
+
+        {
+            height: 90px; width: 90px;
+            display: inline;
+            overflow: hidden;
+
+
+        }
+
+        #imagen-usuario img
+        {
+            
+            height: 60px;
+            width: 60px;
+            overflow: hidden;
+        }
+
+        #publicacion-imagen
+        {
+            height: 200px; width: 200px;
+            float: right;
+            /*display: inline;*/
+            /*overflow: hidden;*/
+        }
+
+
+                #publicacion-imagen img
+        {
+            
+            height: 200px;
+            width: 200px;
+            overflow: hidden;
+        }
+
+
+        .articulos
+        {
+            
+            /*overflow: hidden;*/
+            margin-top: 2px;
+            margin-left: 2px;
+            margin-right: 2px;
+            margin-bottom: 3em;
+            border-top: solid;
+            border: 1;
+        }
+
+        .articulos h2 , h3 , h4 , h6
+        { 
+            margin-left: 3px;
+            width: 60%;
+          
+        }
+
+        .articulos h4
+        {
+            display: inline;
+        }
+  
+        
+
+        #boton 
+        {
+            height: 50px; width: 150px;
+            text-align: center;
+            background-color: rgb(72,17,19);
+            bottom: 0%;
+            right: 0%;
+            position: fixed;
+            z-index: 6000;
+            border: solid;
+            text-decoration: none;
+            color: white;
+            
+
+        }
+
+
+        .enlaces
+        {
+            
+            margin-left: 10px;
+            margin-bottom: 0%;
+        }
+
+        #caja-comentar 
+        {
+            
+             border-top: solid;
+            border-top: 1;
+            border-top-color: rgb(72,17,19);
+            margin-bottom: 4px;
+        }
+            
+            .comentario-imagen-usuario
+            {
+                height: 40px; width: 40px;
+                display: inline;
+                overflow: hidden;
+            }
+
+            .comentario-imagen-usuario img
+            {
+                height: 30px; width: 30px;
+                display: inline;
+                overflow: hidden;
+            }
+    
+    .comenatario-persona
+    {
+        display: inline;
+    }
+
+    .apartado
+    {
+        border: solid;
+        border: 1;
+    }

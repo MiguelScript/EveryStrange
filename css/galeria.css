@@ -1,0 +1,22 @@
+#contenedor
+{
+color: white;
+}
+
+.tituloee
+{
+	color: white;
+	margin-top: 18px;
+}
+
+.publicacion-imagen 
+{
+	height: 500px;
+	width: 500px;
+}
+
+.publicacion-imagen img
+{
+	height: 500px;
+	width: 500px;
+}

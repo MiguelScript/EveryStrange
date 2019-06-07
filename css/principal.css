@@ -1,0 +1,298 @@
+*{
+            margin:0;
+            padding: 0;
+        }
+         
+          /*barra inicial*/
+         
+        header {
+            position: fixed;
+            height: 6%;
+            z-index: 5000;
+            width: 100%;
+            border-bottom:1px solid black;
+            background-color: rgb(72,17,19);    
+
+        }
+
+        
+
+        #menu:link { color: white; text-decoration: none; }
+        #menu:visited { color: white;}
+        #contenedor-menu:hover { color: white; opacity: 0.5; } 
+
+        
+
+
+        #logo
+        {   
+            display: inline-block;
+            line-height: 50px;
+            float: right;
+            color:white;
+            font-style: italic;
+            font-weight: bold;
+            margin-right: 40px;
+            font-size: 1.5em;
+        }
+
+        #logo:link { color: white; text-decoration: none; }
+        #logo:visited { color: white;}
+
+
+        header nav ul li{
+            display: inline-block;
+            line-height: 50px;
+            float: center;
+            color:white;
+            font-weight: bold;
+            margin-left:2em;
+        }
+
+        /*fin barra inicial*/
+
+
+        /*menu oculto*/
+
+        aside { 
+
+            display: none;
+            float: left; 
+            position: absolute;
+            z-index: 5000;
+            background-color: rgb(72,17,19);  
+            height: 100%; 
+            width: 20%; 
+            color: white; 
+            border-right: solid;
+            border-bottom: solid;
+            border-color: black;
+            position: fixed;
+            
+        }
+
+        .item
+        {
+            display: inline-block;
+            width: 96%;
+            height: 40px;
+            text-align: center;
+            padding-top: 15px;
+
+
+
+        }
+
+
+        .item:link { color: white; text-decoration: none; }
+        .item:visited { color: white;}
+        .item:hover { background-color: white; color: black; }
+
+        aside p:hover 
+        {
+
+            width: 96%;
+            color: black;
+
+        }
+
+
+
+
+
+       
+
+        aside div img 
+        {
+            
+            position: relative;
+            margin-top: 10px;
+            height: 100px; width: 100px;
+            padding-left: 30%;
+            border-radius: 5%;
+
+        }
+
+        /* FIN MENU OCULTO*/
+
+
+
+
+        
+        #imagen-principal 
+        {
+            width: 100%;
+            height: 459px;
+            
+        }
+
+        #imagen-principal img {
+            width: 100%;
+            height: 100%;
+           
+        }
+
+
+        
+        .area-iconos {
+            width: 1225px;
+            text-align:center;
+            margin-right: 100px;
+            margin-left: 100px;
+            
+            
+        }
+        
+        .area-iconos h1
+        {
+            padding: 1em;
+            font-style: italic;
+            font-weight: normal;
+            font-size: 2.5em;
+            color: white;
+            background-color: rgb(117,27,31);
+        }
+
+        
+        .contenedor-iconos
+        {
+            width:1000px;
+            display: inline-block;  
+
+            
+
+        }
+        
+        
+        
+    
+        .icono-principal
+        {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            display: inline-block;
+            margin: 1.5em;
+            text-align: center;
+            position:relative;
+            overflow: hidden;
+            border-style: groove; border-color: rgb(117,27,31); border-radius: 50%;
+            
+        
+            
+        }
+
+        .icono-principal img
+        {
+            height: 100%;
+            width: 100%;
+            position: relative;
+
+        }
+
+        .salvacion:hover 
+        {
+           opacity: 0;
+        }
+
+
+        .texto{
+            position: relative;
+            color: black;
+            
+            bottom: 60px;
+            visibility: hidden;
+            
+
+        }
+
+               .icono-principal:hover .texto
+        {  
+
+            opacity: 1;
+            position: absolute;
+            visibility: visible;
+            z-index: 6000;
+        }
+
+
+
+        .noticias h1 {
+
+            padding: 1em;
+            font-style: italic;
+            font-weight: normal;
+            font-size: 2.5em;
+            color: white;
+            background-color: rgb(72,17,19);
+            border-bottom: solid;
+
+        }
+
+
+      
+    
+        
+
+        .articulo {
+
+            display: inline-block;
+            height: 400px;
+            width: 300px;
+            margin: 20px;
+            border-style: groove; border-color: rgb(117,27,31); border-radius: 50px;
+            position: relative;
+            background-color: rgb(117,27,31);
+            overflow: hidden;
+
+        }
+
+        .articulo p {
+
+            padding: 0.5em;
+
+        }
+
+
+        .imagen{
+
+            height: 200px;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            border-top-right-radius: 50px; 
+            border-top-left-radius: 50px;
+
+        }
+
+        .noticias 
+        {
+            background-color: rgb(72,17,19);
+            text-align: center;
+            color: white;
+
+
+        }
+
+
+        .articulos-enlace:link { color: white; }
+        .articulos-enlace:visited { color: white; }
+        .articulos-enlace:hover { color: rgb(72,17,19); }
+
+        #div-oculto
+        {
+            width: 80%;
+            height: 100%;
+            position: fixed;
+            margin-left: 20%;
+            z-index: 8000;
+            float: left;
+            background-color: black;
+            display: none;
+            -webkit-filter: blur(3px);
+            filter: blur(3px);
+            opacity: 0.5;
+
+        }
+
+        

@@ -1,0 +1,1 @@
+<?php $conexion = new mysqli('localhost', 'id2368783_miguel','123457','id2368783_proyecto'); ?>
