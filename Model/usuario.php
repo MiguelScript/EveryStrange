@@ -1,5 +1,16 @@
 <?php 
 
+/**
+ * 
+ */
+class Usuario 
+{
+	
+	function __construct(argument)
+	{
+		# code...
+	}
+
 	public function todos()
 	{
 		$sql = "SELECT * FROM usuario";
@@ -28,5 +39,7 @@
 	{
 		session_destroy();
 	}
+}
+	
 
 ?>
