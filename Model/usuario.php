@@ -11,6 +11,20 @@ class Usuario
 		# code...
 	}
 
+	public function show($id)
+	{
+		$s="SELECT usuario_correo FROM usuario where usuario_correo = '$correo'";
+		$clavecita=$conexion->query($s);
+	}
+
+	public function store()
+	{
+		$registar = "INSERT INTO usuario(usuario_id, usuario_nombre, usuario_apellido, usuario_correo, usuario_clave , usuario_imagen) 
+        VALUES ('','$nombre','$apellido','$correo','$clave', '$target_path')";
+
+    $conexion->query($registar);
+	}
+
 	public function todos()
 	{
 		$sql = "SELECT * FROM usuario";
